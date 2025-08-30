@@ -1,73 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>IntresTools — by XAMO</title>
-  <meta name="description" content="Free, on-device finance tools: loan payments, comparisons, refinance, equity & investment growth — private and offline." />
-  <meta property="og:title" content="IntresTools — by XAMO" />
-  <meta property="og:description" content="Free, on-device finance tools — private and offline." />
-  <meta property="og:type" content="website" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%236366f1'/><text x='50' y='58' font-size='42' text-anchor='middle' fill='white' font-family='Helvetica'>I</text></svg>">
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="IntresTools is a free, on-device finance toolkit for iPhone: loan payments & amortization, compare loans, refinance break-even, equity within 80% LTV, and investment growth."/>
+  <style>
+    body{margin:0;font:16px system-ui,-apple-system,Segoe UI,Roboto;color:#e7ecf2;background:#0b1020}
+    .wrap{max-width:980px;margin:0 auto;padding:40px 20px}
+    .card{background:#121a32;border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:24px;margin:18px 0}
+    h1{margin:0 0 10px;font-size:32px}
+    h2{margin:0 0 8px;font-size:20px;color:#8ab4ff}
+    p{line-height:1.6;margin:8px 0}
+    a.btn{display:inline-block;background:linear-gradient(135deg,#6475ff,#14b1e9);
+          color:#fff;text-decoration:none;padding:12px 18px;border-radius:999px;font-weight:700}
+    .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
+    .shots img{width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.08)}
+    footer{opacity:.7;margin-top:24px;font-size:13px}
+  </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="logo"></div>
-      <div>
-        <div class="h1">IntresTools</div>
-        <div class="sub">Developed by XAMO Team · Free · Offline · No sign‑ups</div>
+  <div class="wrap">
+    <div class="card">
+      <h1>IntresTools</h1>
+      <p>Free, on-device finance toolkit for iPhone. Calculate monthly loan payments and amortization, compare two loans, test refinance break-even, borrow within an 80% LTV cap, and model investment growth — all offline.</p>
+      <!-- Replace the # with your App Store link when ready -->
+      <p><a class="btn" href="#">View on the App Store</a></p>
+      <p>Powered by XAMO © 2025 • All rights reserved.</p>
+    </div>
+
+    <div class="card">
+      <h2>Screenshots</h2>
+      <div class="shots">
+        <img src="assets/screenshots/ss1.png" alt="Home" />
+        <img src="assets/screenshots/ss2.png" alt="Loan" />
+        <img src="assets/screenshots/ss3.png" alt="Compare" />
+        <img src="assets/screenshots/ss4.png" alt="Refinance" />
+        <img src="assets/screenshots/ss5.png" alt="Equity loan" />
+        <img src="assets/screenshots/ss6.png" alt="Investment growth" />
+        <img src="assets/screenshots/ss7.png" alt="Learn" />
       </div>
     </div>
 
-    <div class="hero">
-      <h2>Plan. Compare. Grow.</h2>
-      <p>Free, on-device finance tools—loans, refinance, equity & investing. No tracking, no accounts, and your data never leaves your phone.</p>
-      <div class="badges">
-        <span class="badge">Loan Calculator</span>
-        <span class="badge">Compare Loans</span>
-        <span class="badge">Refinance</span>
-        <span class="badge">Home Equity</span>
-        <span class="badge">Investment Growth</span>
-      </div>
-      <div class="cta">
-        <a class="btn" href="#" aria-label="View on the App Store">View on the App Store</a>
-        <a class="btn secondary" href="support.html">Support & Contact</a>
-      </div>
-    </div>
-
-    <div class="grid">
-      <div class="card">
-        <h3>Loan & Amortization</h3>
-        <p class="small">Monthly payment breakdown with full schedule and interactive charts.</p>
-      </div>
-      <div class="card">
-        <h3>Compare Two Loans</h3>
-        <p class="small">Side‑by‑side monthly cost, principal share, and total interest.</p>
-      </div>
-      <div class="card">
-        <h3>Refinance</h3>
-        <p class="small">Break‑even APR and savings with closing costs and monthly deltas.</p>
-      </div>
-      <div class="card">
-        <h3>Home Equity</h3>
-        <p class="small">Cash‑out with an 80% LTV cap and combined monthly impact preview.</p>
-      </div>
-      <div class="card">
-        <h3>Investment Growth</h3>
-        <p class="small">Principal vs interest over time; toggle reinvested interest.</p>
-      </div>
-      <div class="card">
-        <h3>Private & Offline</h3>
-        <p class="small">All calculations on your device. No data collection, no tracking.</p>
-      </div>
-    </div>
-
-    <hr/>
-    <div class="footer">
-      © 2025 XAMO. All rights reserved. · <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a>
-    </div>
+    <footer>
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
   </div>
 </body>
 </html>
